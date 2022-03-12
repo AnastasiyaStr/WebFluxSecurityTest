@@ -1,0 +1,7 @@
+testMethods:
+  signUpUser_validSignUpUserForm_userStoredInDb:
+    parameters:
+      validUserSignUpForm:
+        name: name1
+        email: email1@test.com
+        password: password1

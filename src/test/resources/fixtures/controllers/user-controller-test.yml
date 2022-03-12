@@ -1,0 +1,13 @@
+testMethods:
+  signUp_validUserSignUpForm_userProfileReturned:
+    parameters:
+      validUser:
+        id: 123
+        username: Admin
+        role: ROLE_ADMIN
+        password: Passw0rd
+      validUserSignUpForm:
+        id: 123
+        username: Enduser
+        role: ROLE_USER
+        password: Passw0rd
